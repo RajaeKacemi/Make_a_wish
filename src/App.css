@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,105 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+  background-color: #fca311;
+  color:#14213d;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+header{
+  background-color: #fca311;
+  height: 60px;
+}
+header > p{
+  letter-spacing: 1.2px;
+  font-weight: bold;
+  font-size: 25px;
+  padding:15px;
+}
+.Title{
+  text-align: center;
+  color:#14213d;
+  padding: 25px;
+}
+.container{
+  display: flex;
+  padding: 25px;
+}
+.description{
+  width: 565px;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+}
+img{
+margin-left: 10px;
+width: 500px;
+height: 220px;
+}
+.persdata{
+  display: flex;
+}
+
+.subTitle{
+  color: #14213d;
+  padding: 5px;
+  font-size: 30px;
+  width: 600px;
+  text-align: center;
+  margin-top: 120px;
+  letter-spacing: 1.8px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+form{
+  border: 1px solid #fca311;
+  height: 300px;
+  width: 500px;
+  padding: 30px;
+  margin-top: 25px;
+  background-color: #f2f2f2;
+}
+
+input, textArea{
+  width: 85%;
+  height: 30px;
+  margin-left: 30px;
+  font-size: 60px;
+}
+textArea{
+ height: 150px;
+}
+label{
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 20px;
+}
+button{
+  margin-left: 52.5%;
+  width: 29.5%;
+  height: 30px;
+  color:white;
+  background-color: #14213d;
+  border-radius: 6px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+button:hover{
+  color:#14213d;
+  background-color: #fca311;
+  
 }
